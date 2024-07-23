@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerForm Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="ant-form ant-form-inline css-dev-only-do-not-override-1uq9j6g"
+  >
+    <div
+      class="ant-form-item css-dev-only-do-not-override-1uq9j6g"
+    >
+      <div
+        class="ant-row ant-form-item-row css-dev-only-do-not-override-1uq9j6g"
+      >
+        <div
+          class="ant-col ant-form-item-control css-dev-only-do-not-override-1uq9j6g"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <input
+                aria-required="true"
+                class="ant-input css-dev-only-do-not-override-1uq9j6g ant-input-outlined"
+                id="name"
+                placeholder="Nome"
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="ant-form-item css-dev-only-do-not-override-1uq9j6g"
+    >
+      <div
+        class="ant-row ant-form-item-row css-dev-only-do-not-override-1uq9j6g"
+      >
+        <div
+          class="ant-col ant-form-item-control css-dev-only-do-not-override-1uq9j6g"
+        >
+          <div
+            class="ant-form-item-control-input"
+          >
+            <div
+              class="ant-form-item-control-input-content"
+            >
+              <button
+                class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-primary"
+                type="submit"
+              >
+                <span>
+                  Adicionar Jogador
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</DocumentFragment>
+`;

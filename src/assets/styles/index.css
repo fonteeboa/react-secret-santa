@@ -1,0 +1,204 @@
+/* Estilos globais */
+
+body {
+  background-color: #f0f2f5;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #001529;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  color: white !important;
+  text-align: center;
+  margin: 0;
+  padding: 16px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 30px 50px;
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  background: #001529;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.ant-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.ant-card-head-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #001529;
+}
+
+.ant-btn-primary {
+  background-color: #1890ff;
+  border-color: #1890ff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  border-radius: 50%;
+}
+
+.ant-btn-primary:hover {
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.ant-form-item {
+  margin-bottom: 16px;
+}
+
+.ant-input,
+.ant-btn {
+  border-radius: 8px;
+}
+
+p {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+
+.row-inline {
+  display: flex;
+  align-items: center;
+}
+
+.row-inline .ant-btn {
+  margin-left: 8px;
+}
+
+.resultList {
+  min-height: 66dvh;
+}
+
+.playerList {
+  min-height: 51dvh;
+}
+
+.startButton {
+  border-radius: 5%;
+  height: 14.5dvh;
+  max-width: 22dvh;
+}
+
+.colStart {
+  padding-left: 20px;
+}
+
+/* Responsividade */
+
+@media (max-width: 1200px) {
+  .header-title {
+    font-size: 24px;
+  }
+
+  .content {
+    padding: 20px 40px;
+  }
+
+  .ant-card-head-title {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-title {
+    font-size: 22px;
+  }
+
+  .content {
+    padding: 20px 30px;
+  }
+
+  .ant-card-head-title {
+    font-size: 16px;
+  }
+
+  .startButton {
+    height: 12dvh;
+    max-width: 20dvh;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .header-title {
+    font-size: 20px;
+  }
+
+  .content {
+    padding: 15px 20px;
+  }
+
+  .ant-card-head-title {
+    font-size: 14px;
+  }
+
+  .startButton {
+    height: 10dvh;
+    max-width: 100%;
+  }
+
+  .colStart {
+    min-width: 100%;
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 18px;
+  }
+
+  .content {
+    padding: 10px 15px;
+  }
+
+  .ant-card-head-title {
+    font-size: 12px;
+  }
+
+  .startButton {
+    height: 10dvh;
+    max-width: 100%;
+  }
+
+  .colStart {
+    min-width: 100%;
+    padding-top: 10px;
+    padding-left: 0px;
+  }  
+}

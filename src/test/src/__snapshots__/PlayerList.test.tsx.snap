@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerList Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-list ant-list-split ant-list-bordered playerList css-dev-only-do-not-override-1uq9j6g"
+  >
+    <div
+      class="ant-spin-nested-loading css-dev-only-do-not-override-1uq9j6g"
+    >
+      <div
+        class="ant-spin-container"
+      >
+        <div
+          class="rc-virtual-list"
+          style="position: relative;"
+        >
+          <div
+            class="rc-virtual-list-holder"
+            style="height: 400px; overflow-y: hidden;"
+          >
+            <div>
+              <div
+                class="rc-virtual-list-holder-inner"
+                style="display: flex; flex-direction: column;"
+              >
+                <li
+                  class="ant-list-item"
+                >
+                  John
+                  <ul
+                    class="ant-list-item-action"
+                  >
+                    <li>
+                      <button
+                        class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-link ant-btn-dangerous"
+                        type="button"
+                      >
+                        <span>
+                          Remover
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+                <li
+                  class="ant-list-item"
+                >
+                  Jane
+                  <ul
+                    class="ant-list-item-action"
+                  >
+                    <li>
+                      <button
+                        class="ant-btn css-dev-only-do-not-override-1uq9j6g ant-btn-link ant-btn-dangerous"
+                        type="button"
+                      >
+                        <span>
+                          Remover
+                        </span>
+                      </button>
+                    </li>
+                  </ul>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

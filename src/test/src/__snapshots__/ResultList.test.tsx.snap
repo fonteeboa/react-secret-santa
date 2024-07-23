@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultList Component matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ant-list ant-list-split ant-list-bordered resultList css-dev-only-do-not-override-1uq9j6g"
+  >
+    <div
+      class="ant-spin-nested-loading css-dev-only-do-not-override-1uq9j6g"
+    >
+      <div
+        class="ant-spin-container"
+      >
+        <div
+          class="rc-virtual-list"
+          style="position: relative;"
+        >
+          <div
+            class="rc-virtual-list-holder"
+            style="height: 627px; overflow-y: hidden;"
+          >
+            <div>
+              <div
+                class="rc-virtual-list-holder-inner"
+                style="display: flex; flex-direction: column;"
+              >
+                <li
+                  class="ant-list-item"
+                >
+                  John will give a gift to Jane
+                </li>
+                <li
+                  class="ant-list-item"
+                >
+                  Jane will give a gift to Doe
+                </li>
+                <li
+                  class="ant-list-item"
+                >
+                  Doe will give a gift to John
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
